@@ -314,6 +314,11 @@ html {
         background-image: url(../img/2054.jpg);
     }
 }
+@media (max-width: 420px) {
+    .fullscreen1{
+        display: none;
+    }
+}
 .box {
     flex: 1 1 auto;
     max-width: 1000px;
@@ -496,6 +501,11 @@ a:hover span {
     min-height: 100vh;
     background-color: #f0f4f7;
 }
+@media (max-width: 420px) {
+    .fullscreen5{
+        min-height: 60vh;
+    }
+}
 
 .box4__slider{
     min-width: 0;
@@ -628,7 +638,13 @@ a:hover span {
     -webkit-background-size: cover;
     background-size: cover;
 }
-
+@media (max-width: 420px) {
+    .fullscreen6{
+        /* background-image: none; */
+        min-height: 60vh;
+        background: #f0f4f7;
+    }
+}
 .box5 {
     margin-bottom: 20px;
     display: flex;
